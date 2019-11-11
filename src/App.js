@@ -107,7 +107,7 @@ class App extends Component {
 
               {this.state.topics[this.state.currentIndex].answers.map((answer, index) => {
                 return (
-                  <button key={index} className={this.state.buttonClass[index]} ontouchstart="" onClick={() => this.next(index, answer.correct)}>{ answer.value }</button>
+                  <button key={index} className={this.state.buttonClass[index]} onClick={() => this.next(index, answer.correct)}>{ answer.value }</button>
                 )
               })}
             </div>

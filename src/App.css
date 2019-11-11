@@ -22,7 +22,7 @@
   border-radius: 4px;
 }
 
-.topics-container button:active, .result button:active {
+.topics-container button:hover, .result button:hover {
   transform: scale(.95);
 }
 
