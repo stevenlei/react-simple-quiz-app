@@ -95,6 +95,10 @@ class App extends Component {
     }, 300)
   }
 
+  componentDidMount() {
+    document.addEventListener("touchstart", function() {},false);
+  }
+
   render() {
     return (
       <div className="App">
